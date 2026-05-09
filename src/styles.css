@@ -1,10 +1,18 @@
+/* EN ÜST SATIRDA OLMALI */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Cairo:wght@400;600;700;900&display=swap');
+
+/* Diğer tüm kodlar (root, variables vb.) bunun altında gelmeli */
+:root {
+  --radius: 0.875rem;
+  /* ... */
+}
+
+
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Cairo:wght@400;600;700;900&display=swap');
 
 @theme inline {
   --font-sans: 'Tajawal', 'Cairo', system-ui, sans-serif;
