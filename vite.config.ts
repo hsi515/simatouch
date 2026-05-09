@@ -14,7 +14,7 @@ export default defineConfig({
   },
   vite: {
     server: {
-      allowedHosts: ["rose-bloom-emporium.onrender.com", "simatouch.com"]
+      allowedHosts: ["simatouch-production.up.railway.app", "simatouch.com ,www.simatouch.com"]
     }
   }
 });
