@@ -7,7 +7,7 @@
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "start": "vite preview --port $PORT --host"
+  "start": "vite preview --port 8080 --host"
 },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
